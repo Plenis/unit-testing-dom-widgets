@@ -1,5 +1,5 @@
 function updateSettingsTotalbill(){
-    
+
     function addSettingBtn(){
         callCostThree = Number(callCost.value);
         smsCostThree = Number(smsCost.value);

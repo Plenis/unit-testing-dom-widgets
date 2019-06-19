@@ -4,10 +4,7 @@ var billStringField = document.querySelector(".billString");
 
 var colorInstance = calculateBtnClicked();
 
-// var color = colorInstance.warningLevel();
-
 var totalBill = calculateBtnClicked();
-
 
 calculateBtn.addEventListener('click', function () {
     var total = totalBill.logic(billStringField.value);
@@ -29,11 +26,5 @@ calculateBtn.addEventListener('click', function () {
     }
 
 });
-
-// var roundedBillTotal = billTotalElement;
-
-
-
-// billTotalElement.innerHTML = roundedBillTotal;
 
 calculateBtn.addEventListener('click', calculateBtnClicked);

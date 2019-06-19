@@ -16,7 +16,7 @@ describe('calculateBtnClicked' , function(){
 
     it('should not count entries that are not seperated with a comma', function(){
         var instances = calculateBtnClicked()
-        assert.equal(instances.logic('sms, sms, call'), '4.25');
+        assert.equal(instances.logic('sms, sms, call sms sms sms sms sms call, call, call'), '7.00');
     })
 
     it('should return orange when the warning level reaches 20 or more', function(){
