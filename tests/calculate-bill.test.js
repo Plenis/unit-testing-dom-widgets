@@ -38,8 +38,8 @@ describe('calculateBtnClicked' , function(){
         instances.logic('sms')
         instances.logic('call')
         instances.logic('call')
-        instances.logic('call')
-        assert.equal(instances.logic(), '23.50');
+      //  instances.logic('call')
+        assert.equal(instances.logic('call'), '23.50');
     })
 
     it('should return red when the critical level reaches 30 or more', function(){
