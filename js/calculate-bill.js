@@ -18,8 +18,6 @@ function calculateBtnClicked() {
 
 
 
-
-
     function warningLevel(total) {
         return total >= 20 && total < 30;
     }
@@ -31,7 +29,8 @@ function calculateBtnClicked() {
     return {
         logic: billString,
         warningLevel,
-        criticalLevel
+        criticalLevel,
+        
     }
 
 }   
